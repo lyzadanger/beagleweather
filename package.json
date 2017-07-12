@@ -1,0 +1,23 @@
+{
+  "name": "beagleweather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyzadanger/beagleweather.git"
+  },
+  "keywords": [],
+  "author": "Lyza Danger Gardner",
+  "license": "ISC",
+  "dependencies": {
+    "beaglebone-io": "^2.1.0",
+    "express": "^4.14.1",
+    "johnny-five": "^0.10.4",
+    "socket.io": "^1.7.3"
+  }
+}
